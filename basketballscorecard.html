@@ -1,0 +1,34 @@
+<html> 
+<head>
+	<title> Basketball score card </title>
+	<link href="D:\basketballscorecard.css"type="text/css" 
+	rel="stylesheet" />
+</head>
+<body>
+	<h1> Here is the basketball scorecard made by KPzee </h1>
+	<div id="Backroundofscorecard">
+		<div class="home/guest">
+			<h2 class="homeguest"> Home</h2>
+			<h2 class="homeguest"> guest</h2>
+		</div>
+		<div id="points">
+			<h1 class="points" id="home"> 0</h1>
+			<h1 class="points" id="guest"> 0</h1>
+		</div>
+		
+			<div class="workdamit">
+				<button class="add" onclick="addOneHome()"> +1 </button>
+				<button class="add" onclick="addTwoHome()"> +2 </button>
+				<button class="add" onclick="addThreeHome()"> +3 </button>
+			</div>
+			<div class="workdamit">
+				<button class="add" onclick="addOneGuest()"> +1 </button>
+				<button class="add" onclick="addTwoGuest()"> +2 </button>
+				<button class="add" onclick="addThreeGuest()"> +3 </button>
+			</div>
+			<button id="reset" onclick="reset()"> reset </button>
+		
+	</div>
+<script src="D:\basketballscorecard.js"> </script>
+</body>
+</html>

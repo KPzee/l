@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+}
+#Backroundofscorecard {
+	text-align: center;
+	width:1000px;
+	margin: 10px auto 10px auto;
+	background: blue;
+}
+h2.homeguest {
+	text-transform: uppercase;
+	font-family:  monospace;
+	font-weight: bold;
+	font-size: 290%;
+	display: inline-block;
+	padding: 5px 200px 5px 200px; 
+}
+
+
+h1.points {
+	color: red;
+	background: black;
+	text-transform: uppercase;
+	font-family:  monospace;
+	font-weight: bold;
+	font-size: 300%;
+	display: inline-block;
+	margin: 5px 220px 5px 205px; 
+	width:69px;
+	height: 48px;
+}
+.workdamit {
+	text-transform: uppercase;
+	font-family:  monospace;
+	font-weight: bold;
+	font-size: 0%;
+	display: inline-block;
+	padding: 5px 200px 20px 200px;
+	 
+
+}
+.add {
+	background: navy;
+	border-radius: 50px;
+	height: 32px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+.add:hover {
+	background: blue;
+}
+.add:active {
+	background: darkblue;
+}
+#reset {
+	background: navy;
+	border-radius: 100px;
+	height: 32px;
+	padding: 5px 5px 5px 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 10px
+}
+#reset:hover {
+	background: blue;
+}
+#reset:active {
+	background: darkblue;
+}
+	
